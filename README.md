@@ -27,3 +27,10 @@ npm run dev
 - TypeScript
 - React
 - Tailwind CSS
+
+## Deploy on Netlify
+
+The repository configures Netlify to run `npm run build` and publish `dist`.
+The Nitro `netlify` preset generates the server function and routing needed by
+TanStack Start, including direct requests to nested routes. Keep this preset
+enabled so server-rendered pages and server endpoints are included in deploys.
